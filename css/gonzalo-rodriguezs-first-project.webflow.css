@@ -90,13 +90,12 @@ p {
 .button.full-width {
   display: block;
   width: 100%;
-  background-color: #990c45;
 }
 
 .brand-text {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #990c45;
+  color: #cf404d;
   font-size: 30px;
   line-height: 25px;
   font-weight: 400;
@@ -112,12 +111,12 @@ p {
 .section.section-gray {
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
-  background-color: hsla(5, 39%, 72%, .83);
+  background-color: #fafafa;
 }
 
 .call-to-action-section {
   padding: 44px 40px;
-  background-color: hsla(5, 39%, 72%, .83);
+  background-color: #cf404d;
   color: #fff;
 }
 
@@ -143,7 +142,6 @@ p {
 .hero-subheading {
   margin-bottom: 25px;
   color: #fff;
-  font-size: 25px;
 }
 
 .hollow-button {
@@ -199,11 +197,10 @@ p {
 }
 
 .section-subheading.center {
-  font-family: Montserrat, sans-serif;
-  color: #990c45;
+  font-family: 'Droid Sans', sans-serif;
+  color: hsla(0, 0%, 45%, .74);
   font-size: 19px;
   line-height: 30px;
-  font-style: italic;
   text-align: center;
 }
 
@@ -258,7 +255,6 @@ p {
 .footer-text {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #990c45;
   font-size: 16px;
 }
 
@@ -291,28 +287,24 @@ p {
   bottom: 0px;
   width: 329px;
   height: 100%;
-  background-color: hsla(5, 39%, 72%, .69);
+  background-color: #2d3e4f;
 }
 
 .nav-link {
   display: block;
   padding: 20px 0px;
-  color: #990c45;
+  color: #fff;
   font-size: 15px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .nav-link:hover {
-  color: #e067dc;
-}
-
-.nav-link:focus {
-  color: #e067dc;
+  color: #cf404d;
 }
 
 .nav-link.w--current {
-  color: #990c45;
+  color: #cf404d;
 }
 
 .nav-menu {
@@ -344,8 +336,8 @@ p {
 
 .banner {
   height: 100%;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/kaboompics-com_closeup-of-pink-flowers-on-the-desk.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/kaboompics-com_closeup-of-pink-flowers-on-the-desk.jpg');
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 73%, 68%, .51), hsla(0, 73%, 68%, .51)), url('../images/2e9b0cb2.jpg');
+  background-image: linear-gradient(180deg, hsla(0, 73%, 68%, .51), hsla(0, 73%, 68%, .51)), url('../images/2e9b0cb2.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -361,26 +353,6 @@ p {
 
 .paragraph-form {
   margin-bottom: 0px;
-}
-
-.heading {
-  color: #990c45;
-}
-
-.heading-2 {
-  color: #990c45;
-}
-
-.heading-3 {
-  color: #990c45;
-}
-
-.heading-4 {
-  color: #990c45;
-}
-
-.image {
-  margin-top: 11px;
 }
 
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
